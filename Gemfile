@@ -6,7 +6,7 @@ ruby '3.2.10'
 # Pry-rails
 gem 'pry-rails'
 # Update Rails to 7.2.x to fix vulnerabilities
-gem 'rails', '~> 7.2.2', '>= 7.2.2.1'
+gem 'rails', '>= 8.0.2.1'
 # Use Rack safely to fix CVE-2026-22860
 gem 'rack', '~> 2.2', '>= 2.2.8'
 # Use Marcel instead of mimemagic (Windows-friendly)
