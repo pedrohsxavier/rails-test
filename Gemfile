@@ -1,12 +1,16 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.4'
+ruby '2.6.10'
 
 # Pry-rails
 gem 'pry-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
+# Use Rack safely to fix CVE-2026-22860
+gem 'rack', '~> 2.2', '>= 2.2.8'
+# Use Marcel instead of mimemagic (Windows-friendly)
+gem 'marcel', '~> 1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
