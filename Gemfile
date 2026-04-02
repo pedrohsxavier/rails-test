@@ -8,7 +8,7 @@ gem 'pry-rails'
 # Update Rails to 7.2.x to fix vulnerabilities
 gem 'rails', '>= 8.0.2.1'
 # Use Rack safely to fix CVE-2026-22860
-gem 'rack', '~> 2.2', '>= 2.2.8'
+gem 'rack', '~> 2.2'
 # Use Marcel instead of mimemagic (Windows-friendly)
 gem 'marcel', '~> 1.0'
 # Use Nokogiri with secure version to fix multiple CVEs
